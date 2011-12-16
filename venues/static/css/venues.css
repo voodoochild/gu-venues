@@ -1,0 +1,39 @@
+.read-next ul {
+    list-style: none;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+}
+
+.read-next ul li {
+    background: none;
+    float: left;
+    margin-right: 10px;
+    width: 140px;
+}
+
+.read-next ul li.last {
+    margin-right: 0;
+}
+
+.read-next h2,
+.read-next h3 {
+    border: 0;
+    font-size: 14px;
+    margin: 5px 0;
+    text-align: center;
+}
+
+.read-next h2 {
+    font-weight: bold;
+}
+
+.read-next h3 {
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 1.5;
+}
+
+.read-next a:hover h3 {
+    text-decoration: underline;
+}
